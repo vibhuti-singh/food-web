@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: -100%;
+    height: auto;
+    position: relative;
+    font-family: 'Pacifico', cursive;
+}
+.container1{
+    background-image: url("./assets/blur.jpg");
+    background-size: cover;
+}
+
+.hero, .cta{
+    background-image: url("./assets/homebg.jpg");
+}
+
+
+
+.checkout-page{
+    background-image: url("./assets/homebg.jpg");
+    height: 90vh;
+}
+
+
+
+  
