@@ -135,7 +135,7 @@ const mastotal=total+50
     ):(
       <div className='h-screen bg-emerald-900 flex flex-col justify-center items-center'>
           
-    <h1 className='text-white text-4xl'>Nothig to show here....</h1>
+    <h1 className='text-white text-4xl'>Nothing to show here....</h1>
     <Link to="/main" className='w-72 h-12 bg-black rounded-md mt-7 text-white flex items-center justify-center'>Add Items</Link>
         </div>
     )
