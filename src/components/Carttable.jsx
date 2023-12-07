@@ -27,7 +27,7 @@ const handleDecrease=(itemId)=>{
   return (
     <tbody className='h-full'>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <td className="p-4 h-full">
+                <td className="p-4 h-full hidden sm:block">
                     <img className='h-20 w-36' src={item.img} alt="image not found"/>
                 </td>
                 <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">

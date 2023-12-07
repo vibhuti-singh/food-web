@@ -26,7 +26,7 @@ const mastotal=total+50
             
       <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 h-4">
           <tr>
-              <th scope="col" className="px-6 py-3">
+              <th scope="col" className="px-6 py-3 hidden sm:block">
                   <span className="sr-only">Image</span>
               </th>
               <th scope="col" className="px-6 py-3">
@@ -134,7 +134,7 @@ const mastotal=total+50
 </div> 
 
     ):(
-      <div className='container h-screen bg-emerald-950 flex flex-col justify-center items-center'>
+      <div className='container h-screen w-full bg-emerald-950 flex flex-col justify-center items-center'>
           
     <h1 className='text-white text-4xl'>Nothig to show here....</h1>
     <Link to="/main" className='w-72 h-12 bg-black rounded-md mt-7 text-white flex items-center justify-center'>Add Items</Link>
