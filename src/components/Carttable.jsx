@@ -26,11 +26,11 @@ const handleDecrease=(itemId)=>{
   
   return (
     <tbody className='h-full'>
-            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <tr className="border-b bg-gray-800 border-gray-700">
                 <td className="p-4 h-full hidden sm:block">
                     <img className='h-20 w-36' src={item.img} alt="image not found"/>
                 </td>
-                <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">
+                <td className="px-6 py-4 font-semibold text-white">
                  {item.Dish}
                 </td>
                 <td className="px-6 py-4">
@@ -43,11 +43,11 @@ const handleDecrease=(itemId)=>{
                        
                     </div>
                 </td>
-                <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">
+                <td className="px-6 py-4 font-semibold text-white">
                 ₹{item.Price*item.quantity}
                 </td>
                 <td className="px-6 py-4">
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline" onClick={()=>handleRemove(item.id)}>Remove</a>
+                    <a href="#" className="font-medium text-red-600 " onClick={()=>handleRemove(item.id)}>Remove</a>
                 </td>
             </tr>
            

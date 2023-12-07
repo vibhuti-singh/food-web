@@ -20,11 +20,10 @@ const mastotal=total+50
     Cartitems.length>0?(
       <div className='flex flex-col md:flex-row border-t-2'>
       <div className='w-full md:w-2/3'>
-      <h1 className='text-3xl text-center font-mono text-yellow-700  border-black'>your cart</h1>
-        <div className='relative overflow-x-auto shadow-md sm:rounded-0 w-full mt-9'>
-          <table className='w-full text-sm text-left text-gray-500 dark:text-gray-400 h-28'>
+        <div className='relative overflow-x-auto shadow-md sm:rounded-0 w-full'>
+          <table className='w-full text-sm text-left text-gray-500  h-28'>
             
-      <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 h-4">
+      <thead className="text-xs text-gray-300 uppercase  bg-gray-700  h-4">
           <tr>
               <th scope="col" className="px-6 py-3 hidden sm:block">
                   <span className="sr-only">Image</span>
@@ -54,26 +53,26 @@ const mastotal=total+50
            <h1 className='text-3xl font-mono text-yellow-700 border-b-4 border-black'>Check-out</h1>
             <div className='relative overflow-x-auto w-11/12 sm:rounded-0'>
            </div>
-              <table className='text-sm text-left text-gray-500 dark:text-gray-400 my-10 w-full'>
+              <table className='text-sm text-left text-gray-500  my-10 w-full'>
                
-      <thead className='text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 '>
+      <thead className='text-xs text-gray-300 uppercase  bg-gray-700 '>
           <tr>
               <th scope="col" className="px-6 py-3">Items</th>
               <th scope="col" className="px-6 py-3">amount</th>
           </tr>
       </thead>
       <tbody>
-<tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white"> Totle cart items</td>
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">₹ {total}</td>
+<tr className=" border-b bg-gray-800 border-gray-700">
+  <td className="px-6 py-4 font-semibold text-white"> Totle cart items</td>
+  <td className="px-6 py-4 font-semibold text-white">₹ {total}</td>
 </tr>
-<tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">Delivery</td>
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">₹ 50</td>
+<tr className="border-b bg-gray-800 border-gray-700">
+  <td className="px-6 py-4 font-semibold text-white">Delivery</td>
+  <td className="px-6 py-4 font-semibold text-white">₹ 50</td>
 </tr>
-<tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">Total</td>
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">₹{mastotal}</td>
+<tr className="border-b bg-gray-800 border-gray-700">
+  <td className="px-6 py-4 font-semibold text-white">Total</td>
+  <td className="px-6 py-4 font-semibold text-white">₹{mastotal}</td>
 </tr>
       </tbody>
   </table>
@@ -99,26 +98,26 @@ const mastotal=total+50
            <h1 className='text-3xl font-mono text-yellow-700 border-b-4 border-black'>Check-out</h1>
             <div className='relative overflow-x-auto w-11/12 sm:rounded-0'>
            </div>
-              <table className='text-sm text-left text-gray-500 dark:text-gray-400 my-10 w-full'>
+              <table className='text-sm text-left  my-10 w-full'>
                
-      <thead className='text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 '>
+      <thead className='text-xs  uppercase  bg-gray-700 text-gray-400 '>
           <tr>
               <th scope="col" className="px-6 py-3">Items</th>
               <th scope="col" className="px-6 py-3">amount</th>
           </tr>
       </thead>
       <tbody>
-<tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white"> Totle cart items</td>
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">₹ {total}</td>
+<tr className=" border-b bg-gray-800 border-gray-700">
+  <td className="px-6 py-4 font-semibold text-white"> Totle cart items</td>
+  <td className="px-6 py-4 font-semibold text-white">₹ {total}</td>
 </tr>
-<tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">Delivery</td>
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">₹ 50</td>
+<tr className=" border-b bg-gray-800 border-gray-700">
+  <td className="px-6 py-4 font-semibold text-white">Delivery</td>
+  <td className="px-6 py-4 font-semibold text-white">₹ 50</td>
 </tr>
-<tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">Total</td>
-  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">₹{mastotal}</td>
+<tr className="border-b bg-gray-800 border-gray-700">
+  <td className="px-6 py-4 font-semibold text-white">Total</td>
+  <td className="px-6 py-4 font-semibold text-white">₹{mastotal}</td>
 </tr>
       </tbody>
   </table>
@@ -134,7 +133,7 @@ const mastotal=total+50
 </div> 
 
     ):(
-      <div className='container h-screen w-full bg-emerald-950 flex flex-col justify-center items-center'>
+      <div className='h-screen bg-emerald-900 flex flex-col justify-center items-center'>
           
     <h1 className='text-white text-4xl'>Nothig to show here....</h1>
     <Link to="/main" className='w-72 h-12 bg-black rounded-md mt-7 text-white flex items-center justify-center'>Add Items</Link>
